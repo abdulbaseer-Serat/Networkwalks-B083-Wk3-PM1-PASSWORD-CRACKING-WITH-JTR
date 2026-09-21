@@ -546,19 +546,6 @@ More importantly, this experience reinforced the value of **learning by doing** 
 
 ---
 
-## 🙏 Acknowledgement
-
-<div align="center">
-
-### 🌟 Special Thanks 🌟
-
-A heartfelt thank you to my instructor **Waqas Karim (CCIE)** for his invaluable guidance, mentorship, and support throughout this learning journey.
-
-And to **Networkwalks Academy** for providing a structured, practical cybersecurity learning environment with hands-on challenges that made these concepts much easier to understand through real implementation.
-
-</div>
-
----
 
 ## ⚠️ Disclaimer
 
@@ -570,7 +557,7 @@ And to **Networkwalks Academy** for providing a structured, practical cybersecur
 
 <div align="center">
 
-### 🔐 Made with dedication by **Arshiya Sharma** 🤖
+### 🔐 Prepared by **Abdulbaseer Serat** 🤖
 
 ⭐ *If you found this useful, consider giving this repo a star!* ⭐
 
