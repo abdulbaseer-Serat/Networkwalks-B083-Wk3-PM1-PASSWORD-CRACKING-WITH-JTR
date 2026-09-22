@@ -90,42 +90,6 @@ speed & password complexity):*
 <img width="1471" height="903" alt="image" src="https://github.com/user-attachments/assets/31db849f-42ed-48cb-bbbe-b53e570ba792" />
 
 
-### 🎯 Objective
-
-Gain practical exposure to fundamental cybersecurity concepts through hands-on security challenges, including password security, hashing, wordlists, and CTF-style problem solving.
-
-**Skills covered:**
-
-| 🧩 Area | 📖 Focus |
-|---|---|
-| Cybersecurity Fundamentals | Core concepts & terminology |
-| Security Testing Methodology | Structured problem solving |
-| Password Security | Weak vs. strong passwords |
-| Hashing Concepts | One-way transformations |
-| Wordlists | Dictionary-based attacks |
-| Password Cracking | Practical recovery workflow |
-| CTF Challenges | Flag-based validation |
-
-### 🔑 Password Security & Hashing
-
-Passwords aren't usually stored directly — instead, systems rely on **cryptographic hashes**, a one-way transformation producing a fixed-format representation of the original input.
-
-**Practical workflow:**
-
-```
-Protected File
-     ↓
-Hash Extraction
-     ↓
-Hash Identification
-     ↓
-Password Cracking
-     ↓
-Password Recovery
-     ↓
-Access to Protected File
-```
-
 ### 🧰 Networkwalks Password Cracker
 
 Practiced against a lab file: `My Locked PDF1.pdf`
