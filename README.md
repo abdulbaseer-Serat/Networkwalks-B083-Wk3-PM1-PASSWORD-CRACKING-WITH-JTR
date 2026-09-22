@@ -82,10 +82,13 @@ Recover the password of an authorized password-protected PDF using Johnny, the g
 
 ## Procedure
 1. Open the hash website & upload your pdf file to find its hash (https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php).
-2. Copy the extracted PDF hash.
-3. Open Johnny.
-4. Import the extracted PDF hash into Johnny.
-5. Start a new password recovery session.
+2. Copy the extracted PDF hash, and Paste the hash value inside notepad. save it as txt e.g. hash.txt
+3. Open Johnny. Click on ‘Open password file, and Browse to the hash1.txt file that you have just saved & click on Open
+4. Click on ‘Start new attack’ - *Your PDF file password will be cracked (it might take some time depending on your computer 
+speed & password complexity):*
+
+<img width="1471" height="903" alt="image" src="https://github.com/user-attachments/assets/31db849f-42ed-48cb-bbbe-b53e570ba792" />
+
 
 ### 🎯 Objective
 
