@@ -51,6 +51,28 @@ A command-line approach for recovering authorized PDF passwords by extracting PD
 
 <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
 
+### Reusability of the Workflow
+
+The same CLI-based password recovery workflow can be applied to other authorized password-protected PDF files by extracting the PDF hash with `pdf2john` and performing a dictionary attack using `John the Ripper` with an appropriate wordlist.
+
+### Generic Commands
+
+1. Extract the PDF hash:
+
+```bash
+pdf2john "filename.pdf" > hash.txt
+like: pdf2john "$HOME/Desktop/My Locked PDF1.pdf" > "$HOME/Desktop/hash1.txt"
+```
+2. cat "$HOME/Desktop/hash1.txt" or cat hash.txt
+3. Run a dictionary attack using a wordlist:
+```bash
+john --format=pdf --wordlist=rockyou.txt hash.txt
+like: john --format=pdf --wordlist="$HOME/Desktop/rockyou.txt" hash1.txt
+```
+4. Display the recovered password:
+```bash
+   john --show --format=pdf hash.txt
+```
 ## 🧪 Module 1 - Task 2: PDF Password Recovery Using a CLI-Based Dictionary Attack.
 
 
