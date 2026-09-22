@@ -45,7 +45,10 @@ The modules focused on moving beyond theory into real, practical exposure to:
 ---
 
 ## 🧪 Module 1 — Task 1: Password recovery (or password auditing) using a dictionary attack.
-- Command-Line Interface (CLI) based PDF password recovery using a dictionary attack.
+### CLI-Based PDF Password Recovery Using a Dictionary Attack
+
+A command-line approach for recovering authorized PDF passwords by extracting PDF hashes with `pdf2john` and testing candidate passwords using `John the Ripper` and a wordlist-based dictionary attack.
+
 <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
 
 
