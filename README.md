@@ -92,125 +92,39 @@ speed & password complexity):*
 
 ## 🔓 Module 2 — Password Cracking with NetworkWalks Tools - Using  Hash Calculator and Password Cracker tools
 
-Practiced against a lab file: `My Locked PDF1.pdf`
+## 🔓 Module 2 — Password Cracking with NetworkWalks Tools
 
-**Steps followed:**
-
-1. 📥 Download the encrypted lab PDF
-2. 🧮 Open the Networkwalks Hash Calculator
-3. 📤 Upload the protected PDF
-4. 🔍 Extract the PDF hash
-5. 📋 Copy the hash (starting with `$pdf$`)
-6. 🖥️ Open the Networkwalks Password Cracker
-7. 📝 Provide the extracted hash
-8. ▶️ Start the cracking process
-9. ⏳ Wait for password recovery
-10. 🔓 Use the recovered password to open the PDF
-
-### 🧠 Wordlists & Password Cracking
-
-Password-cracking effectiveness depends on:
-
-- 📏 Password length
-- 🔀 Password complexity
-- 🎯 Password predictability
-- 📚 Wordlist quality
-- 🔡 Character combinations
-- 🌐 Search space
-- ⚡ Available computing resources
-
-> 💡 **Key takeaway:** Weak and predictable passwords are significantly easier to recover than strong, unique ones.
-
-### 🚩 Captured Flags
-
-```
-🏁 nw[networkwalks_flag_260821_1]
-🏁 nw[networkwalks_persistence_jtr_270521]
-🏁 nw[cybersecurity_flag_captured_2608]
-```
-
-### 📚 Key Learning Outcomes
-
-- ✅ Password security fundamentals
-- ✅ Hashing concepts
-- ✅ Password recovery techniques
-- ✅ Wordlist-based attacks
-- ✅ Practical cybersecurity investigation
-- ✅ Capture-the-Flag methodology
-- ✅ Understanding weak-password risks
-
----
-
-
-<img width="1600" height="840" alt="hashcalculator" src="https://github.com/user-attachments/assets/e94157ee-48df-4928-b731-518c915f9b5e" />
-<img width="1600" height="840" alt="pass cracker" src="https://github.com/user-attachments/assets/35877680-6694-45c4-9fff-a817b72985b7" />
-
-### 📌 Overview
-
-In this module, I worked on password cracking using the **NetworkWalks password-cracking tools**. The practical focused on understanding how password hashes are generated/extracted and how those hashes can be tested against password wordlists to recover the original password.
-
-The complete workflow was performed in a controlled cybersecurity training environment for learning and ethical-security purposes.
-
-### 🎯 Objectives
-
-- 🔎 Understand the concept of password hashing
-- 🧮 Generate/extract password hashes using the NetworkWalks Hash Calculator
-- 🧠 Understand commonly used hash algorithms such as MD5 and SHA-1
-- 🔗 Use the generated hash as input for password cracking
-- 📚 Perform dictionary-based password cracking using the NetworkWalks Password Cracker
-- ✅ Verify the recovered password
-- 🚩 Successfully capture the provided training flag
-
-### 🧠 Concept — Password Hashing
-
-A password hash is a fixed-length representation generated from a password using a hashing algorithm.
-
-During the practical, the **NetworkWalks Hash Calculator** was used to generate hashes from text, providing outputs for algorithms including:
-
-| Algorithm | Notes |
-|---|---|
-| MD5 | ⚠️ Legacy — not secure for passwords |
-| SHA-1 | ⚠️ Legacy — not secure for passwords |
-| SHA-256 | ✅ Stronger |
-| SHA-384 | ✅ Stronger |
-| SHA-512 | ✅ Stronger |
-
-> 💡 The practical demonstrated that older algorithms such as MD5 and SHA-1 should not be considered secure choices for storing passwords.
+### 🎯 Objective
+Gain practical experience with password hashing, hash analysis, and password recovery using the NetworkWalks Hash Calculator and Password Cracker in a controlled training environment.
 
 ### 🛠️ Tools Used
+- 🧮 NetworkWalks Hash Calculator
+- 🔓 NetworkWalks Password Cracker
+- 📄 Password-protected PDF (`My Locked PDF1.pdf`)
 
-- 🧮 **NetworkWalks Hash Calculator** — used to generate password hashes and work with hash values.
-- 🔓 **NetworkWalks Password Cracker** — used to attempt recovery of the original password from its hash using a wordlist-based approach.
-
-### 🔄 Practical Workflow
+### 🔄 Workflow
 
 ```text
-Input Password/Text
-        ↓
-NetworkWalks Hash Calculator
-        ↓
-Generate Hash
-        ↓
-Identify/Select Hash Type
-        ↓
-Provide Hash to Password Cracker
-        ↓
-Use Password Wordlist
-        ↓
-Cracking Process
-        ↓
-Password Recovered
-        ↓
-Verify Result
-        ↓
-Capture Training Flag
+Protected PDF
+      ↓
+Hash Extraction
+      ↓
+Hash Analysis
+      ↓
+Password Cracking
+      ↓
+Password Recovery
+      
 ```
+### 📋 Procedure
 
-### 🔎 Step 1 — Generate the Hash
+1. Upload the protected PDF to the Hash Calculator.
+2. Extract and copy the PDF hash.
+3. Import the hash into the Password Cracker.
+4. Run a dictionary-based password recovery process. or click on " Start Crack"
+5. Recover and verify the password.
 
-Text was entered into the **NetworkWalks Hash Calculator**, which generated multiple hash representations of the input, including MD5 and SHA-1.
-
-This helped in understanding how the same input can produce different hash values depending on the hashing algorithm used.
+### ✅ Screenshots and Results
 
 ### 🔓 Step 2 — Password Cracking
 
