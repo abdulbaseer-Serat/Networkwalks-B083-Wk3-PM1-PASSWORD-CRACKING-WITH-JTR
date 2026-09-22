@@ -73,8 +73,19 @@ like: john --format=pdf --wordlist="$HOME/Desktop/rockyou.txt" hash1.txt
 ```bash
    john --show --format=pdf hash.txt
 ```
-## 🧪 Module 1 - Task 2: PDF Password Recovery Using a CLI-Based Dictionary Attack.
+## 🧪 Module 1 - Task 2: PDF Password Recovery Using Johnny (GUI)
+Recover the password of an authorized password-protected PDF using Johnny, the graphical user interface (GUI) for John the Ripper.
 
+### Tools Used
+- Johnny (GUI for John the Ripper)
+- PDF Hash Extractor (Online Hash Crack PDF Hash Extractor)
+
+## Procedure
+1. Open the hash website & upload your pdf file to find its hash (https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php).
+2. Copy the extracted PDF hash.
+3. Open Johnny.
+4. Import the extracted PDF hash into Johnny.
+5. Start a new password recovery session.
 
 ### 🎯 Objective
 
