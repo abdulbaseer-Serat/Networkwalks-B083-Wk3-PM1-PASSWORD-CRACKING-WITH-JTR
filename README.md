@@ -44,7 +44,13 @@ The modules focused on moving beyond theory into real, practical exposure to:
 
 ---
 
-## 🧪 Module 1 — Cybersecurity Practical Tasks
+## 🧪 Module 1 — Task 1: Password recovery (or password auditing) using a dictionary attack.
+- Command-Line Interface (CLI) based PDF password recovery using a dictionary attack.
+<img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
+
+
+
+
 <img width="1600" height="822" alt="pdf 2 john pass crack" src="https://github.com/user-attachments/assets/2d5a5a4c-b656-4b23-ac3b-77613f15d0e5" />
 <img width="1600" height="822" alt="flag found" src="https://github.com/user-attachments/assets/766e0bca-566b-49e9-b3ef-63953a02dfde" />
 <img width="1600" height="822" alt="flag for 2nd" src="https://github.com/user-attachments/assets/162e68fd-fa2b-4b5b-88c9-681dc9473d6a" />
