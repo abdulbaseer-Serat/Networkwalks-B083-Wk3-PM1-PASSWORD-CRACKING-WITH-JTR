@@ -44,12 +44,15 @@ The modules focused on moving beyond theory into real, practical exposure to:
 
 ---
 
-## 🧪 Module 1 - Task 1: PDF Password Recovery Using a CLI-Based Dictionary Attack.
+## 🧪 Module 1 - Task 1: PDF Password Cracking Using a CLI-Based Dictionary Attack.
 ### CLI-Based PDF Password Recovery Using a Dictionary Attack
 
 A command-line approach for recovering authorized PDF passwords by extracting PDF hashes with `pdf2john` and testing candidate passwords using `John the Ripper` and a wordlist-based dictionary attack.
 
+<div align="cnter">
 <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
+📸 *Screenshot: PDF Password Cracking Using a CLI-Based Dictionary Attack*
+</div>
 
 ### Reusability of the Workflow
 
@@ -73,7 +76,7 @@ like: john --format=pdf --wordlist="$HOME/Desktop/rockyou.txt" hash1.txt
 ```bash
    john --show --format=pdf hash.txt
 ```
-## 🧪 Module 1 - Task 2: PDF Password Recovery Using Johnny (GUI)
+## 🧪 Module 1 - Task 2: PDF Password Cracking Using Johnny (GUI)
 Recover the password of an authorized password-protected PDF using Johnny, the graphical user interface (GUI) for John the Ripper.
 
 ### Tools Used
@@ -87,10 +90,11 @@ Recover the password of an authorized password-protected PDF using Johnny, the g
 4. Click on ‘Start new attack’ - *Your PDF file password will be cracked (it might take some time depending on your computer 
 speed & password complexity):*
 
+<div align="center">
 <img width="1471" height="903" alt="image" src="https://github.com/user-attachments/assets/31db849f-42ed-48cb-bbbe-b53e570ba792" />
+📸 *Screenshot: PDF Password Cracking Using Johnny (GUI)*
+</div>
 
-
-## 🔓 Module 2 — Password Cracking with NetworkWalks Tools - Using  Hash Calculator and Password Cracker tools
 
 ## 🔓 Module 2 — Password Cracking with NetworkWalks Tools
 
@@ -102,20 +106,6 @@ Gain practical experience with password hashing, hash analysis, and password rec
 - 🔓 NetworkWalks Password Cracker
 - 📄 Password-protected PDF (`My Locked PDF1.pdf`)
 
-### 🔄 Workflow
-
-```text
-Protected PDF
-      ↓
-Hash Extraction
-      ↓
-Hash Analysis
-      ↓
-Password Cracking
-      ↓
-Password Recovery
-      
-```
 ### 📋 Procedure
 
 1. Upload the protected PDF to the Hash Calculator.
@@ -125,40 +115,13 @@ Password Recovery
 5. Recover and verify the password.
 
 ### ✅ Screenshots and Results
+<div align="center">
+<img width="440" height="400" alt="image" src="https://github.com/user-attachments/assets/f6adfa86-526c-4323-9f3e-2957c4fd437a" />
+📸 *Screenshot: Hash Calculator*
 
-### 🔓 Step 2 — Password Cracking
-
-After obtaining the hash, the **NetworkWalks Password Cracker** was used. The hash was provided to the cracker along with an appropriate password wordlist.
-
-The tool tested candidate passwords against the target hash until a matching password was identified.
-
-**✅ Result:** The password was successfully cracked as:
-
-```
-password1
-```
-
-### 🚩 Step 3 — Flag Capture
-
-After successfully recovering the password, the corresponding training flag was obtained — confirming the password-cracking workflow was completed successfully.
-
-**Captured flags from this practical:**
-
-```
-🏁 nw[networkwalks_flag_260821_1]
-🏁 nw[networkwalks_persistence_jtr_270521]
-```
-
-### 📸 Practical Evidence
-
-Screenshots were captured during the practical to document:
-
-- 🧮 Hash generation using the NetworkWalks Hash Calculator
-- 🔢 Hash values generated for different algorithms
-- ⚙️ Password-cracking configuration
-- ▶️ Password-cracking process
-- ✅ Successful password recovery
-- 🚩 Successful flag capture
+<img width="402" height="478" alt="image" src="https://github.com/user-attachments/assets/c957e003-c6c4-4f1a-85d3-bdcf082e7d77" />
+📸 *Screenshot: Password Cracker through Dictionary Attacks*
+</div>
 
 ### 🧪 Key Learning Outcomes
 
@@ -182,11 +145,6 @@ Screenshots were captured during the practical to document:
 
 All password-cracking activities in this module were performed in a controlled cybersecurity training environment provided for educational purposes. Password cracking should only be performed on systems, accounts, files, or hashes for which **explicit authorization** has been provided.
 
-### ✅ Module Status
-
-**Project Module 2 — Completed Successfully 🎯**
-
-`Hash Generation → Hash Analysis → Password Cracking → Password Recovery → Flag Capture`
 
 ---
 
