@@ -2,11 +2,10 @@
 
 # 🔐 Cybersecurity & Ethical Hacking — Practical Project Modules 
 
-![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-critical?style=for-the-badge&logo=hackaday&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/OS-Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Python](https://img.shields.io/badge/Language-Python%203-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Claude Desktop](https://img.shields.io/badge/AI-Claude%20Desktop-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Status-Completed-red)
+![Static Badge](https://img.shields.io/badge/Module-W3--PM1-brightgreen)
+![Static Badge](https://img.shields.io/badge/Program-Networkwalks%20Intership-orange)
+![Static Badge](https://img.shields.io/badge/Purpose-Only%20for%20Education%20-blue)
 
 *A hands-on documentation of my cybersecurity learning journey — from password hashing to AI‑assisted security automation.*
 
