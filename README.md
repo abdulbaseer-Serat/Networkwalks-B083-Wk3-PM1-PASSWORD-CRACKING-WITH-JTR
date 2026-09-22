@@ -50,7 +50,8 @@ The modules focused on moving beyond theory into real, practical exposure to:
 A command-line approach for recovering authorized PDF passwords by extracting PDF hashes with `pdf2john` and testing candidate passwords using `John the Ripper` and a wordlist-based dictionary attack.
 
 <div align="cnter">
-<img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
+
+   <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
 
    📸 *Screenshot: PDF Password Cracking Using a CLI-Based Dictionary Attack*
 </div>
@@ -119,12 +120,12 @@ Gain practical experience with password hashing, hash analysis, and password rec
 
 ### ✅ Screenshots and Results
 <div align="center">
-<img width="440" height="400" alt="image" src="https://github.com/user-attachments/assets/f6adfa86-526c-4323-9f3e-2957c4fd437a" />
+<img width="958" height="494" alt="image" src="https://github.com/user-attachments/assets/db78ddcb-e96a-45c8-9e70-ea304c8a7119" />
 
    📸 *Screenshot: Hash Calculator*
 </div>
 <div align="center">
-<img width="402" height="478" alt="image" src="https://github.com/user-attachments/assets/c957e003-c6c4-4f1a-85d3-bdcf082e7d77" />
+<img width="957" height="499" alt="image" src="https://github.com/user-attachments/assets/20b51099-5a98-41cb-acfd-38603ee38b3e" />
 
    📸 *Screenshot: Password Cracker through Dictionary Attacks*
 </div>
