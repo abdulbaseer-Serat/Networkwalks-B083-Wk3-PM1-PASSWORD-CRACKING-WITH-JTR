@@ -90,7 +90,7 @@ speed & password complexity):*
 <img width="1471" height="903" alt="image" src="https://github.com/user-attachments/assets/31db849f-42ed-48cb-bbbe-b53e570ba792" />
 
 
-### 🧰 Networkwalks Password Cracker
+## 🔓 Module 2 — Password Cracking with NetworkWalks Tools - Using  Hash Calculator and Password Cracker tools
 
 Practiced against a lab file: `My Locked PDF1.pdf`
 
@@ -141,7 +141,7 @@ Password-cracking effectiveness depends on:
 
 ---
 
-## 🔓 Module 2 — Password Cracking with NetworkWalks Tools
+
 <img width="1600" height="840" alt="hashcalculator" src="https://github.com/user-attachments/assets/e94157ee-48df-4928-b731-518c915f9b5e" />
 <img width="1600" height="840" alt="pass cracker" src="https://github.com/user-attachments/assets/35877680-6694-45c4-9fff-a817b72985b7" />
 
