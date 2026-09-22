@@ -51,7 +51,8 @@ A command-line approach for recovering authorized PDF passwords by extracting PD
 
 <div align="cnter">
 <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
-📸 *Screenshot: PDF Password Cracking Using a CLI-Based Dictionary Attack*
+
+   📸 *Screenshot: PDF Password Cracking Using a CLI-Based Dictionary Attack*
 </div>
 
 ### Reusability of the Workflow
@@ -74,8 +75,9 @@ like: john --format=pdf --wordlist="$HOME/Desktop/rockyou.txt" hash1.txt
 ```
 4. Display the recovered password:
 ```bash
-   john --show --format=pdf hash.txt
+john --show --format=pdf hash.txt
 ```
+
 ## 🧪 Module 1 - Task 2: PDF Password Cracking Using Johnny (GUI)
 Recover the password of an authorized password-protected PDF using Johnny, the graphical user interface (GUI) for John the Ripper.
 
@@ -92,7 +94,8 @@ speed & password complexity):*
 
 <div align="center">
 <img width="1471" height="903" alt="image" src="https://github.com/user-attachments/assets/31db849f-42ed-48cb-bbbe-b53e570ba792" />
-📸 *Screenshot: PDF Password Cracking Using Johnny (GUI)*
+
+   📸 *Screenshot: PDF Password Cracking Using Johnny (GUI)*
 </div>
 
 
@@ -117,10 +120,13 @@ Gain practical experience with password hashing, hash analysis, and password rec
 ### ✅ Screenshots and Results
 <div align="center">
 <img width="440" height="400" alt="image" src="https://github.com/user-attachments/assets/f6adfa86-526c-4323-9f3e-2957c4fd437a" />
-📸 *Screenshot: Hash Calculator*
 
+   📸 *Screenshot: Hash Calculator*
+</div>
+<div align="center">
 <img width="402" height="478" alt="image" src="https://github.com/user-attachments/assets/c957e003-c6c4-4f1a-85d3-bdcf082e7d77" />
-📸 *Screenshot: Password Cracker through Dictionary Attacks*
+
+   📸 *Screenshot: Password Cracker through Dictionary Attacks*
 </div>
 
 ### 🧪 Key Learning Outcomes
