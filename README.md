@@ -49,10 +49,9 @@ The modules focused on moving beyond theory into real, practical exposure to:
 
 A command-line approach for recovering authorized PDF passwords by extracting PDF hashes with `pdf2john` and testing candidate passwords using `John the Ripper` and a wordlist-based dictionary attack.
 
-<div align="cnter">
-
+<div align="center">
    <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
-
+ 
    📸 *Screenshot: PDF Password Cracking Using a CLI-Based Dictionary Attack*
 </div>
 
