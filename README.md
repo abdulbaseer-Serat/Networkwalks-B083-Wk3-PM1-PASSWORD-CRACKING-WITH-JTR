@@ -32,7 +32,7 @@ The modules focused on moving beyond theory into real, practical exposure to:
 
 ## 🗂️ Table of Contents
 
-- [🧪 Module 1 — Cybersecurity Practical Tasks](#-module-1--cybersecurity-practical-tasks)
+- [🧪 Module 1 — Cybersecurity Practical Tasks](#-module-1---task-1-pdf-password-cracking-using-a-cli-based-dictionary-attack)
 - [🔓 Module 2 — Password Cracking with NetworkWalks Tools](#-module-2--password-cracking-with-networkwalks-tools)
 - [🤖 Module 3 — Setting Up HexStrike MCP with Claude](#-module-3--setting-up-hexstrike-mcp-with-claude)
 - [🧠 Overall Learning](#-overall-learning)
