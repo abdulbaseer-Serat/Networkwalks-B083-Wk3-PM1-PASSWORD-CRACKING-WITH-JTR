@@ -51,14 +51,8 @@ A command-line approach for recovering authorized PDF passwords by extracting PD
 
 <img width="1105" height="391" alt="image" src="https://github.com/user-attachments/assets/69b85fd0-bafb-40d3-ba82-1541207c43f9" />
 
+## 🧪 Module 1 - Task 2: PDF Password Recovery Using a CLI-Based Dictionary Attack.
 
-
-
-<img width="1600" height="822" alt="pdf 2 john pass crack" src="https://github.com/user-attachments/assets/2d5a5a4c-b656-4b23-ac3b-77613f15d0e5" />
-<img width="1600" height="822" alt="flag found" src="https://github.com/user-attachments/assets/766e0bca-566b-49e9-b3ef-63953a02dfde" />
-<img width="1600" height="822" alt="flag for 2nd" src="https://github.com/user-attachments/assets/162e68fd-fa2b-4b5b-88c9-681dc9473d6a" />
-<img width="1600" height="822" alt="flag for 3" src="https://github.com/user-attachments/assets/9ac1610f-f7c9-40b1-95b8-01fdd0edc0ed" />
-<img width="1600" height="888" alt="file 1 pass " src="https://github.com/user-attachments/assets/465bdb55-402f-40a5-b045-8ac8bb225e6f" />
 
 ### 🎯 Objective
 
